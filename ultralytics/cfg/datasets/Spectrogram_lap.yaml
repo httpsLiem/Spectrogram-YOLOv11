@@ -1,0 +1,8 @@
+path: C:\Dataset\SpectrogramData\SpectrogramData\SpectrogramDataYolo # dataset root dir
+train: C:\Dataset\SpectrogramData\SpectrogramData\SpectrogramDataYolo\train # train images 
+test: C:\Dataset\SpectrogramData\SpectrogramData\SpectrogramDataYolo\test # test images 
+val: C:\Dataset\SpectrogramData\SpectrogramData\SpectrogramDataYolo\test
+
+nc: 2
+names: ['LTE', 'RF']
+

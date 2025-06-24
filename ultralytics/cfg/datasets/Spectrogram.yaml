@@ -1,0 +1,8 @@
+path: /kaggle/input/SpectrogramYOLO # dataset root dir
+train: /kaggle/input/SpectrogramYOLO/train # train images 
+test: /kaggle/input/SpectrogramYOLO/test # test images 
+val: 
+
+nc: 2
+names: ['LTE', 'RF']
+

@@ -1,0 +1,25 @@
+
+path:
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/yolo_params.yaml
+
+train:
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/clutter/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/couch_far_10/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/far_10_half_clutter/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/film_grain_10_half_clutter/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/large_plant_10/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/no_clutter_10/train
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/table_close_10/train
+val: 
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/clutter/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/couch_far_10/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/far_10_half_clutter/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/film_grain_10_half_clutter/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/large_plant_10/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/no_clutter_10/val
+  - /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/table_close_10/val
+  
+test: /kaggle/input/multi-instance-object-detection-challenge/Starter_Dataset/TestImages
+
+nc: 1
+names: ['soup']

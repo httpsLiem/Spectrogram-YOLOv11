@@ -1,0 +1,8 @@
+path: /kaggle/input/nwpu-vhr-10-for-yolo/archive # dataset root dir
+train: /kaggle/input/nwpu-vhr-10-for-yolo/archive/train # train images (relative to 'path')  6471 images
+val: /kaggle/input/nwpu-vhr-10-for-yolo/archive/val # val images (relative to 'path')  548 images
+test: /kaggle/input/nwpu-vhr-10-for-yolo/archive/test # test images (optional)  1610 images
+
+nc: 4
+names: ['aircraft', 'oiltank', 'overpass', 'playground']
+
